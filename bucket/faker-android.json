@@ -6,6 +6,12 @@
     "hash": "9428e808c686bf8fe7d0d8ec5be021e905e8b9532cacb240421aff4e31371a97",
     "url": "https://github.com/Efaker/FakerAndroid/releases/download/1.0.32/FakerAndroid.jar",
     "bin": "FakerAndroid.jar",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
     "checkver": {
         "github": "https://github.com/Efaker/FakerAndroid/"
     },
