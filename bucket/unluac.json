@@ -1,10 +1,10 @@
 {
     "homepage": "https://sourceforge.net/projects/unluac/",
-    "version": "2021_09_23",
+    "version": "2021_12_05",
     "description": "unluac is a decompiler for Lua 5.0 through 5.4. It runs on Lua chunks that have been compiled with the standard Lua compiler.",
     "license": "MIT",
-    "hash": "md5:081124c4b4ecb1bc3a7c4c84c4e88285",
-    "url": "https://downloads.sourceforge.net/project/unluac/Unstable/unluac_2021_09_23.jar#/unluac.jar",
+    "hash": "sha1:51e676f03158be24cc2e6863dc8af010568a4e5e",
+    "url": "https://downloads.sourceforge.net/project/unluac/Unstable/unluac_2021_12_05.jar#/unluac.jar",
     "bin": "unluac.jar",
     "suggest": {
         "JDK": [
