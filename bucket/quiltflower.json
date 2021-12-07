@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/QuiltMC/quiltflower/",
-    "version": "1.6.1",
+    "version": "1.7.0",
     "description": "Quiltflower is a fork of Fernflower and ForgeFlower adding additional features for use with the Quilt toolchain.",
     "license": "Apache 2.0",
-    "hash": "16380b6657c06ea06bd89463856ea5fda9ba91ecd5104dd98542b1f9c3698182",
-    "url": "https://github.com/QuiltMC/quiltflower/releases/download/1.6.1/quiltflower-1.6.1.jar#/quiltflower.jar",
+    "hash": "f25a7a51f28aadfe6fadc7035c7546341247f4304d431df1569c4c776773d13a",
+    "url": "https://github.com/QuiltMC/quiltflower/releases/download/1.7.0/quiltflower-1.7.0.jar#/quiltflower.jar",
     "bin": "quiltflower.jar",
     "suggest": {
         "JDK": [
