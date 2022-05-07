@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/Efaker/FakerAndroid/",
-    "version": "1.0.33",
+    "version": "1.0.37",
     "description": "A tool translate a apk file to stantard android project include so hook api and il2cpp c++ scaffolding when apk is a unity il2cpp game. Write code on a apk file elegantly.",
     "license": "MIT",
-    "hash": "b4be3643208c4d6a9a629a8cbb69a144e2ee066eb2f58d0e0492498a9889e0ad",
-    "url": "https://github.com/Efaker/FakerAndroid/releases/download/1.0.33/FakerAndroid.jar",
+    "hash": "58dc1e2bf17a2c5643df7113e0cbe4024bd69d1e32c6edb4578c3630af71ad29",
+    "url": "https://github.com/Efaker/FakerAndroid/releases/download/1.0.37/FakerAndroid.jar",
     "bin": "FakerAndroid.jar",
     "suggest": {
         "JDK": [
