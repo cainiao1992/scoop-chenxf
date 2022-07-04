@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/jindrapetrik/jpexs-decompiler",
-    "version": "14.4.0",
+    "version": "15.1.1",
     "description": "Opensource flash SWF decompiler and editor. Extract resources, convert SWF to FLA, edit ActionScript, replace images, sounds, texts or fonts. Various output formats available. Works with Java on Windows, Linux or MacOS.",
     "license": "GPL-3.0-only",
-    "hash": "7402ca3423f0941ebd20e1c6ef29d434705d4a0ec53349c4b959ef8d3773f901",
-    "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version14.4.0/ffdec_14.4.0.zip",
+    "hash": "42a802c708e5948dfab999a8e54bd4c2f77bf9ebd27d08ee3b4e1d85b54eb48d",
+    "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version15.1.1/ffdec_15.1.1.zip",
     "shortcuts": [
         [
             "ffdec.bat",
@@ -13,7 +13,7 @@
     ],
     "bin": "ffdec.jar",
     "checkver": {
-        "github": "https://github.com/jindrapetrik/jpexs-decompiler/"
+        "github": "https://github.com/jindrapetrik/jpexs-decompiler"
     },
     "autoupdate": {
         "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version$version/ffdec_$version.zip"
