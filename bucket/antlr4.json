@@ -7,11 +7,13 @@
     "url": "https://www.antlr.org/download/antlr-4.10.1-complete.jar",
     "pre_install": [
         "\"@java -cp \"\".;$dir\\antlr-$version-complete.jar\"\" \"\"org.antlr.v4.Tool\"\" %*\" | out-file -en oem \"$dir\\antlr4.bat\"",
-        "\"@java -cp \"\".;$dir\\antlr-$version-complete.jar\"\" \"\"org.antlr.v4.gui.TestRig\"\" %*\" | out-file -en oem \"$dir\\grun.bat\""
+        "\"@java -cp \"\".;$dir\\antlr-$version-complete.jar\"\" \"\"org.antlr.v4.gui.TestRig\"\" %*\" | out-file -en oem \"$dir\\antlr4run.bat\"",
+        "\"@javac -cp \"\".;$dir\\antlr-$version-complete.jar\"\" %*\" | out-file -en oem \"$dir\\antlr4c.bat\""
     ],
     "bin": [
         "antlr4.bat",
-        "grun.bat"
+        "antlr4run.bat",
+        "antlr4c.bat"
     ],
     "suggest": {
         "JDK": [
