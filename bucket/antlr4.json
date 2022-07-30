@@ -8,8 +8,8 @@
     "bin": "antlr4.jar",
     "suggest": {
         "JDK": [
-            "java/oraclejdk11",
-            "java/openjdk11"
+            "java/oraclejdk",
+            "java/openjdk"
         ]
     },
     "checkver": {
