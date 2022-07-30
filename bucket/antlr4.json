@@ -4,8 +4,15 @@
     "description": "ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files.",
     "license": "Apache 2.0",
     "hash": "41949d41f20d31d5b8277187735dd755108df52b38db6c865108d3382040f918",
-    "url": "https://www.antlr.org/download/antlr-4.10.1-complete.jar#/antlr4.jar",
-    "bin": "antlr4.jar",
+    "url": "https://www.antlr.org/download/antlr-4.10.1-complete.jar",
+    "pre_install": [
+        "\"@java -cp \"\"$dir\\antlr-$version-complete.jar\"\" \"\"org.antlr.v4.Tool\"\" %*\" | out-file -en oem \"$dir\\antlr4.bat\"",
+        "\"@java -cp \"\"$dir\\antlr-$version-complete.jar\"\" \"\"org.antlr.v4.gui.TestRig\"\" %*\" | out-file -en oem \"$dir\\grun.bat\""
+    ],
+    "bin": [
+        "antlr4.bat",
+        "grun.bat"
+    ],
     "suggest": {
         "JDK": [
             "java/oraclejdk",
@@ -16,6 +23,6 @@
         "github": "https://github.com/antlr/antlr4"
     },
     "autoupdate": {
-        "url": "https://www.antlr.org/download/antlr-$version-complete.jar#/antlr4.jar"
+        "url": "https://www.antlr.org/download/antlr-$version-complete.jar"
     }
 }
