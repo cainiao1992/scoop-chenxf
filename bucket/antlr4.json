@@ -1,10 +1,10 @@
 {
     "homepage": "hhttp://antlr.org",
-    "version": "4.10.1",
+    "version": "4.11.0",
     "description": "ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files.",
     "license": "Apache 2.0",
-    "hash": "41949d41f20d31d5b8277187735dd755108df52b38db6c865108d3382040f918",
-    "url": "https://www.antlr.org/download/antlr-4.10.1-complete.jar",
+    "hash": "0f08a3d3e1d07e498558a0eb39ac5dfca95fe3ee6fbffe586e77077059e0160f",
+    "url": "https://www.antlr.org/download/antlr-4.11.0-complete.jar",
     "pre_install": [
         "\"@java -cp \"\".;$dir\\antlr-$version-complete.jar\"\" \"\"org.antlr.v4.Tool\"\" %*\" | out-file -en oem \"$dir\\antlr4.bat\"",
         "\"@java -cp \"\".;$dir\\antlr-$version-complete.jar\"\" \"\"org.antlr.v4.gui.TestRig\"\" %*\" | out-file -en oem \"$dir\\antlr4run.bat\"",
