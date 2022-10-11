@@ -1,16 +1,16 @@
 {
     "homepage": "https://vaibhavpandey.com/apkstudio/",
-    "version": "5.2.3",
+    "version": "5.2.4",
     "description": "Open-source, cross platform Qt based IDE for reverse-engineering Android application packages.",
     "license": "LGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vaibhavpandeyvpz/apkstudio/releases/download/5.2.3/ApkStudio-5.2.3-x64.zip",
-            "hash": "025ddd5f2e03ba08bd5bf8376547e2f039bf4ed206633dcdead1985ddb4e3092"
+            "url": "https://github.com/vaibhavpandeyvpz/apkstudio/releases/download/5.2.4/ApkStudio-5.2.4-x64.zip",
+            "hash": "cd9035c5938bf7db43b17174406ad8796aceba33a5a5867e0a020caeb7e2ce7b"
         },
         "32bit": {
-            "url": "https://github.com/vaibhavpandeyvpz/apkstudio/releases/download/5.2.3/ApkStudio-5.2.3-x86.zip",
-            "hash": "4bbea0a948d10e07b8fcc701666276b8f8fbf40f0e44c78f546de3c16cb205a5"
+            "url": "https://github.com/vaibhavpandeyvpz/apkstudio/releases/download/5.2.4/ApkStudio-5.2.4-x86.zip",
+            "hash": "ea6886107c68484d7a55eefef9bdb003ddcc42fbc5f1eabc1d36c4670c567e96"
         }
     },
     "shortcuts": [
