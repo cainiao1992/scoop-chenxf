@@ -1,6 +1,6 @@
 {
     "homepage": "https://devolutions.net/remote-desktop-manager",
-    "version": "2025.2.27.0",
+    "version": "2025.3.25.0",
     "description": "The best remote connection manager in the industry.",
     "license": {
         "identifier": "Proprietary",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManager.win-x64.2025.2.27.0.7z",
-            "hash": "5fc03c08693864d31019b3a28a576f77f6d6ae31774cacc7795a4383d8f1dba7"
+            "url": "https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManager.win-x64.2025.3.25.0.7z",
+            "hash": "4bf77a1a0e41082bdfa07b75136085e833306edc9a6bac28082a028aa6729bcb"
         },
         "arm64": {
-            "url": "https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManager.win-arm64.2025.2.27.0.7z",
-            "hash": "5c89283d9bc31bf46c54d9651386f33ebcc225ae57725619f306ed89a005da7f"
+            "url": "https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManager.win-arm64.2025.3.25.0.7z",
+            "hash": "7d6d5eaba082e4243be61ae41878ee26524ab66d97fe905b41f0f014e692a245"
         }
     },
     "extract_dir": ".",
@@ -27,7 +27,6 @@
     "checkver": {
         "url": "https://devolutions.net/remote-desktop-manager/download/",
         "regex": "Version\\:\\ ([\\d.]+)"
-
     },
     "autoupdate": {
         "architecture": {
