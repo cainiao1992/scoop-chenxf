@@ -1,0 +1,40 @@
+{
+    "version": "5.9.4.42593613",
+    "description": "AI Agent office workbench from Tencent Cloud CodeBuddy.",
+    "homepage": "https://www.workbuddy.ai",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.workbuddy.ai/document/term"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://download.codebuddy.ai/workbuddy/saas/win32-x64-user/WorkBuddy-win32-x64-user-5.9.4.42593613-fa0a0901.exe#/dl.7z",
+            "hash": "6ff4be433d664ad14c88210b5b82ebb3674d7047aab8ae52459006c587be2ee0"
+        }
+    },
+    "installer": {
+        "script": [
+            "$inner = Get-Item \"$dir\\`$PLUGINSDIR\\app*.7z\" -ErrorAction Ignore | Sort-Object Name | Select-Object -First 1",
+            "if (!$inner) { throw 'NSIS inner package app*.7z not found under $PLUGINSDIR' }",
+            "Expand-7zipArchive -Path $inner.FullName -DestinationPath $dir",
+            "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse -ErrorAction Ignore"
+        ]
+    },
+    "shortcuts": [
+        [
+            "WorkBuddyAI.exe",
+            "WorkBuddy AI"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.workbuddy.ai/v2/update?platform=workbuddy-win32-x64-user",
+        "regex": "\"version\":\"(?<version>[\\d.]+)\"[\\s\\S]*?\"url\":\"(?<url>[^\"]+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "$matchUrl#/dl.7z"
+            }
+        }
+    }
+}
