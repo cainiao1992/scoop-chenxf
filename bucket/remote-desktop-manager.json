@@ -16,7 +16,6 @@
             "hash": "db828b846aa78d2b4bd8d480407705782ae1ad3a784b71eeee3c319e91a1d717"
         }
     },
-    "extract_dir": ".",
     "bin": "RemoteDesktopManager.exe",
     "shortcuts": [
         [
@@ -44,7 +43,6 @@
                     "regex": "\"hash\":\"([a-fA-F0-9]{64})\",\"url\":\"https://cdn\\.devolutions\\.net/download/Devolutions\\.RemoteDesktopManager\\.win-arm64\\.$version\\.7z\""
                 }
             }
-        },
-        "extract_dir": "."
+        }
     }
 }
